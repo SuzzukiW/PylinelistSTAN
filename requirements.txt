@@ -1,0 +1,3 @@
+numpy
+pandas
+pystan == 3.9.1
