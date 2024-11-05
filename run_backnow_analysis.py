@@ -10,6 +10,7 @@ from linelistSTAN import (
     plot_caseCounts, 
     convert_to_linelist
 )
+
 import matplotlib.pyplot as plt
 
 def plot_si(sip):
@@ -19,8 +20,6 @@ def plot_si(sip):
     plt.xlabel('Days')
     plt.ylabel('Probability')
     plt.show()
-
-# ... (previous imports and functions remain the same)
 
 def main():
     print("Loading sample data...")
